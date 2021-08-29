@@ -1,12 +1,10 @@
-pipeline 
-{
+pipeline {
     agent any
 
     stages {
         stage ('Compile Stage') {
             steps {
                     echo 'Compile completed'
-                
             }
         }
 
