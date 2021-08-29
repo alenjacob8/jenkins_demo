@@ -12,18 +12,10 @@ pipeline {
         stage ('Testing Stage') {
 
             steps {
-                echo 'in progress'
-                echo 'Testing completed'
+                echo 'testing completed'
             }
         }
 
-        stage ('Build Stage') {
-
-            steps {
-                echo 'Build in progress'
-                echo 'Build completed'
-            }
-        }
 
         stage ('Deployment Stage') {
             steps {
