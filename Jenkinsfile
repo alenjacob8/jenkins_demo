@@ -2,20 +2,20 @@ pipeline {
     agent any
 
     stages {
-        stage ('Compile Stage') {
+        stage ('Main Branch Compile Stage') {
             steps {
                     echo 'Compile completed'
             }
         }
 
-        stage ('Testing Stage') {
+        stage ('Main Branch Testing Stage') {
 
             steps {
-                echo 'testing completed'
+                echo 'Testing completed'
             }
         }
 
-        stage('Build Stage') {
+        stage('Main Branch Build Stage') {
 
             steps {
                 echo 'Build Completed'
@@ -23,7 +23,7 @@ pipeline {
         }
 
 
-        stage ('Deployment Stage') {
+        stage ('Main Branch  Deployment Stage') {
             steps {
                 echo 'Deployment completed'
             }
