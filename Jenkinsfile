@@ -4,28 +4,28 @@ pipeline {
     stages {
         stage ('Main Branch Compile Stage') {
             steps {
-                    echo 'Compile completed successful'
+                    echo 'Compile Successful'
             }
         }
 
         stage ('Main Branch Testing Stage') {
 
             steps {
-                echo 'Testing completed successful'
+                echo 'Testing Successful'
             }
         }
 
         stage('Main Branch Build Stage') {
 
             steps {
-                echo 'Build Completed successful'
+                echo 'Build Successful'
             }
         }
 
 
         stage ('Main Branch  Deployment Stage') {
             steps {
-                echo 'Deployment completed successful'
+                echo 'Deployment Successful'
             }
 	}
 }
